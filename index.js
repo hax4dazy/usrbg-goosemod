@@ -54,7 +54,7 @@ export default {
       unpatchUsers = Patcher.patch(getUser, "getUser", (_, res) => {
         try {
           if (BG_LIST[res.id]) {
-            if (res.banner || !settings.PRIORITIZE_NITRO_BACKGROUNDS) {
+            if (res.banner && settings.PRIORITIZE_NITRO_BACKGROUNDS) {
               return res;
             }
 
