@@ -5,7 +5,7 @@
   "description": "A plugin for having custom user backgrounds without Nitro.",
   "tags": ["background"],
 
-  "authors": ["Cr3atable", "Strencher"],
+  "authors": ["creatable"],
 
   "version": "0.0.1"
 }
