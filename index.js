@@ -4,7 +4,7 @@ import { createItem, removeItem } from "@goosemod/settings";
 
 let settings = {
   API_URL:
-    "https://raw.githubusercontent.com/hax4dazy/usrbg/master/dist/usrbg.json",
+    "https://raw.githubusercontent.com/Discord-Custom-Covers/usrbg/master/dist/usrbg.json",
   PRIORITIZE_NITRO_BACKGROUNDS: true,
 };
 
